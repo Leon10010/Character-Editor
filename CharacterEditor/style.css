@@ -118,6 +118,23 @@ input[type="range"] {
     background: #0ac95d;
 }
 
+#example {
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    margin-left: 50px;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: #01fe87;
+    cursor: pointer;
+}
+#example:hover {
+    background: #0ac95d;
+}
+
+
 #speicherplatz1 {
     border: 0;
     font-size: 1.8rem;
