@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>etch-a-sketch</title>
+</head>
+
+<body>
+    <h1 data-text="Character_Creation">Create</h1>
+
+    <h3 id="Painting"></h3>
+
+    <div id="flex-container">
+
+        <div class="anzahlFelderKlasse">
+            <p>
+            <label id="groesse" for="anzahlFelder"></label>
+            <input type="range" id="anzahlFelder" title="anzahlFelder" min="2" max="64" value="32">
+            </p>
+            <p>
+                <label for="farbAuswahl" id="auswahlLabel">Farbe</label>
+                <input title="farbAuswahl" type="color" id="farbAuswahl" value="#ff0000">
+            </p>
+            <!-- <select title="farbAuswahl" id="farbAuswahl">
+                <option>gelb</option>
+                <option>blau</option>
+                <option>rot</option>
+                <option>grün</option>
+                <option>schwarz</option>
+            </select> -->
+                <p>
+                    <button type="button" id="rainbow">zufällige Farben
+
+                    </button>
+                </p>
+                <p>
+                <button type="button" id="speicherplatz1">Save</button>
+                </p>
+                <p>
+                <button type="button" id="muster1">Load</button>
+                </p>
+            <label id="saving">Saved...</label>
+        </div>
+
+        <div id="grid-container">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
